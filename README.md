@@ -29,7 +29,7 @@ $ ruby -v
 ### Windows
 
 RubyInstaller로 Ruby 설치 (Version 2.2.5)
-* http://rubyinstaller.org/downloads 에서 본인의 컴퓨터가 32비트 이면 `Ruby 2.2.5 `, 64비트이면 `Ruby 2.2.5 (x64)`를 다운로드 받아 설치한다.
+* http://rubyinstaller.org/downloads 에서 본인의 컴퓨터가 32비트이면 `Ruby 2.2.5 `, 64비트이면 `Ruby 2.2.5 (x64)`를 다운로드 받아 설치한다.
 * 설치 도중 나오는 `Add Ruby executables to your PATH`에 체크한다.
 * CMD를 열고 `ruby -v`를 입력하여 Ruby가 제대로 설치 되었는지 확인한다.
 ```console
@@ -54,12 +54,10 @@ rbenv로 Ruby 설치 (version 2.2.5)
 $ git clone git://github.com/sstephenson/rbenv.git .rbenv
 $ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 $ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-```
-```console
+
 $ git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 $ echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
-```
-```console
+
 $ source ~/.bashrc
 ```
 * `rbenv -v`로 rbenv가 제대로 설치 되었는지 확인한다.
