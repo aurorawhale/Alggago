@@ -103,7 +103,7 @@ $ ruby alggago.rb
 `alggago.rb` 파일과 같은 위치에 `ai_[name].rb` 파일 __하나__를 둔다.
 
 ### AI vs. AI
-`alggago.rb` 파일과 같은 위치에 `ai_[name].rb` 파일 __두개__를 둔다.
+`alggago.rb` 파일과 같은 위치에 `ai_[name].rb` 파일 __둘__을 둔다.
 
 ## Make Your Own Alggago Code
 `ai_black.rb` 파일의 다음 부분을 수정하여 Alggago AI를 만든다.
