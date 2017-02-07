@@ -79,7 +79,7 @@ $ ruby -v
 
 ### Using Git
 ```console
-$ git clone https://github.com/likelion-net/alggago.git
+$ git clone https://github.com/likelion-campus/alggago.git
 ```
 
 ### Using 'Download ZIP'
