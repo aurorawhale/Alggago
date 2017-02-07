@@ -116,8 +116,38 @@ class MyAlggago
 
     #Return values
     ...
-      #Don't touch 'Return values' codes
+    return [stone_number, stone_x_strength, stone_y_strength, message]
 
     #Codes end
   end
+```
+
+### Input parameter
+- `positions` : __본인 돌의 위치__와 __상대방 돌의 위치__를 가지고 있는 배열.
+```ruby
+positions #=> [Array, Array]
+```
+
+- `positions[n]` : __돌의 위치 정보 배열 `[x,y]`__를 가지고 있는 배열. size는 살아있는 돌의 갯수와 같다. 돌이 죽으면 배열에서 삭제된다. 여기서 `n`은 `0` 또는 `1`.
+```ruby
+# 0 : 본인 돌의 위치, 1 : 상대방 돌의 위치
+positions[0] #=> [Array, Array, Array, Array, Array, Array, Array]
+```
+
+- `positions[n][m]` : `positions[n]`에 들어있는 __m번째 돌의 위치 정보 배열__ , 여기서 `m`은 `0`에서 `6`까지, 위치 정보는 좌표 `[x, y]`의 형태를 하고 있다.
+```ruby
+# 0..6: 돌의 위치
+positions[0][6] #=> [float, float]
+```
+
+### Return values
+- `stone_number` : `my_position` 배열의 index. `my_position` 배열에 들어있는 돌을 가르킨다.
+```ruby
+stone_number #=> int
+```
+- `stone_x_strength` : x축 방향으로의 힘. 오른쪽으로 갈 수록 `+`, 왼쪽으로 갈 수록 `-`.
+- `stone_y_strength` : y축 방향으로의 힘. 아래쪽으로 갈 수록 `+`, 위쪽으로 갈 수록 `-`.
+```ruby
+stone_x_strength #=> float
+stone_y_strength #=> float
 ```

@@ -22,7 +22,7 @@ class MyAlggago
 
         x_distance = (my[0] - your[0]).abs
         y_distance = (my[1] - your[1]).abs
-        
+
         current_distance = Math.sqrt(x_distance * x_distance + y_distance * y_distance)
 
         if min_length > current_distance
@@ -46,7 +46,7 @@ class MyAlggago
   end
 
   def get_name
-    "MY AI!!!"
+    "MY AI!!!" #Set your name or team name
   end
 end
 
